@@ -1,11 +1,17 @@
 <li class="list-group-item">
-	{{burger_name}}
-
-	<button class="btn btn-light change-eat" data-id="{{id}}" data-neweat="{{devour}}">
-		{{#if devour}}<i class="fa fa-cookie-bite"></i>EAT TIME!{{else}}<i class="fa fa-cookie"></i>DON'T EAT!{{/if}}
-	</button>
+	<div class="row">
+	<div class="col">
+        <span style="font-weight:normal;">Burger Name: </span>{{burger_name}}
+	</div>
+</div>
+	<div class="row">
+	<div class="col-6">
+	<button class="btn btn-primary change-eat" data-id="{{id}}" data-neweat="{{devour}}"><span><i class="fa fa-cutlery"></i></span>
+		{{#if devour}}Eat this!{{else}}Make more!{{/if}}
+	</button></div>
+	<div class="col">
 
 	<button class="btn btn-light delete-burger" data-id="{{this.id}}"><i class="fa fa-minus-circle"></i> Delete</button>
-</li>
+</div></div></li>
 
 
