@@ -85,6 +85,10 @@ line-height: 1.2;
     padding: 20px!important;
   }
 
+  .col {
+width: 100%!important;
+
+  }
 .card {
 width:100% !important;
 }
