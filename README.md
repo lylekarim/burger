@@ -7,7 +7,7 @@ https://damp-bayou-53351.herokuapp.com/
 
 ## Screen Shots
 
-![Screen shot](public/assets/images/burger_screenshot.png)
+![Screen shot](public/assets/img/burger_screenshot.png?raw=true)
 Index Page
 
 ## Technologies used
